@@ -1,0 +1,68 @@
+/*Aplica a todo*/
+body {
+  background-image: url(../images/gran_logo_corazon.png);
+  background-size: 100%;
+}
+body header {
+  background: linear-gradient(rgb(161, 47, 255), rgba(255, 255, 255, 0.419));
+  text-align: center;
+  box-shadow: 10px 5px 15px white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  transition: all 3s;
+}
+body header:hover {
+  background: linear-gradient(white, rgba(221, 15, 15, 0.419));
+}
+body header .nav-item {
+  font-family: "Mate SC";
+  font-size: 25px;
+  font-weight: 600;
+}
+body #contenidoPagina #titulodePagina {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Condiment";
+  font-size: 60px;
+  color: rgb(221, 15, 15);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+body #contenidoPagina #encabezadoIndex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+}
+body #contenidoPagina #encabezadoIndex .encabezadoIndexTitulo {
+  font-family: "Condiment";
+  font-size: 40px;
+  color: rgb(221, 15, 15);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+body footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: rgba(0, 128, 0, 0.419);
+}
+body footer .redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer .datosContacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer .enlaces {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
